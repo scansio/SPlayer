@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:paddingTop="2dp"
+	android:paddingBottom="2dp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="5dp">
+
+	<TextView
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:id="@+id/filelist_name"
+		android:paddingTop="8dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/filelist_icon"
+		android:layout_alignParentTop="true"
+		android:textIsSelectable="false"
+		android:textDirection="ltr"
+		android:textColor="#444448"/>
+
+	<TextView
+		android:textSize="12sp"
+		android:id="@+id/filelist_num"
+		android:paddingBottom="5dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/filelist_icon"
+		android:layout_below="@+id/filelist_name"
+		android:layout_alignParentBottom="false"
+		android:textIsSelectable="false"
+		android:textStyle="italic"
+		android:textColor="#6B0CDA"/>
+
+	<TextView
+		android:textSize="12sp"
+		android:gravity="right"
+		android:id="@+id/filelist_time"
+		android:paddingRight="5dp"
+		android:paddingBottom="5dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/filelist_name"
+		android:layout_alignBottom="@+id/filelist_size"
+		android:textIsSelectable="false"
+		android:layout_toRightOf="@id/filelist_num"
+		android:paddingLeft="25dp"
+		android:textColor="#5B06C0"
+		android:textStyle="italic"/>
+
+	<ImageView
+		android:src="@drawable/ic_play_pressed"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:layout_alignParentEnd="true"
+		android:baselineAlignBottom="true"
+		android:layout_centerVertical="true"
+		android:id="@+id/playing"
+		android:visibility="invisible"
+		android:padding="5dp"
+		android:scaleType="fitXY"/>
+
+</RelativeLayout>
+

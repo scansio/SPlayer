@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shuffle">shuffle</string>
+    <string name="repeat">repeat</string>
+    <string name="pause">pause</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="app_name">SPlayer</string>
+</resources>
